@@ -11,7 +11,7 @@ class CustomPageView extends StatelessWidget {
       children: [
         PageViewItem(
           image: 'assets/images/image1.png',
-          title: 'Online study is the',
+          title: 'test git hup actions',
           subTitle: 'Best choice for everyone.',
         ),
         PageViewItem(
