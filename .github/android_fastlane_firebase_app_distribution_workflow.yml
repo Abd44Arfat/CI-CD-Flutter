@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - githup_action
 
 jobs:
   distribute_to_firebase:
