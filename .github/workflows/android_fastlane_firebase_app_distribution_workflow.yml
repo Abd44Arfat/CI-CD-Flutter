@@ -25,15 +25,13 @@ jobs:
 
     - name: Add platform to lockfile
       run: bundle lock --add-platform x86_64-linux  # Add the current platform to the lockfile
-    
+
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: "3.2.3"  # Update to the correct Ruby version
         bundler-cache: true
         working-directory: android
-
-   
 
     - name: Build and Distribute App
       env:
