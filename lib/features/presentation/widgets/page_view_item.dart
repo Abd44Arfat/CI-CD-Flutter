@@ -60,7 +60,7 @@ class PageViewItem extends StatelessWidget {
     fontSize: 28,
     color: const Color(0xff263238),
   ),
-  textAlign: TextAlign.center,
+  textAlign: TextAlign.end,
 )
         ),
       ],
